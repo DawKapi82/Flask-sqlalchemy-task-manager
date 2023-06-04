@@ -1,8 +1,8 @@
 import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-if os.path.exists("env.py"):
-    import env
+if os.path.exists("envy.py"):
+    import envy
 
 
 app = Flask(__name__)
